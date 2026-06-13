@@ -27,7 +27,7 @@ object NetworkModule {
      * Uses 10.0.2.2 which maps to host machine's localhost from Android emulator.
      * Change this to the actual server IP for physical device testing.
      */
-    private const val BASE_URL = "http://10.0.2.2:8000/"
+    private const val BASE_URL = "https://androidify-backend.onrender.com/"
 
     @Provides
     @Singleton
