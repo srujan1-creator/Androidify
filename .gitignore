@@ -1,0 +1,23 @@
+# Python exclusions
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/.env
+
+# Android/Gradle exclusions
+.gradle/
+build/
+app/build/
+.idea/
+local.properties
+*.apk
+*.aar
+*.keystore
+*.jks
+
+# OS exclusions
+.DS_Store
+Thumbs.db
